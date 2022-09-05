@@ -1,4 +1,4 @@
-1. To include "match.h", need to use -lm to compile
+1. To include "match.h", need to use -lm to compile. So, to compile, " gcc fft_float.c -lm".  "gcc -lm fft_float.c" also does not work.
 
 2. In backtracking algorithms, the inner algorithm should not return anything. The inner algorithm should return the outout as input.
 
